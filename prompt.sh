@@ -1,1 +1,1 @@
-export PS1="cli-demo:\W $ "
+export PS1="DB-CLI:\W $ "
