@@ -1,11 +1,11 @@
 # Databricks CLI Docker Container
 
-Simple Dockerized version of Databricks CLI.
+Simple Dockerized version of Databricks CLI, bash, git, openssh, python3.7 in an interactive Alpine Linux container.
 
-Sets alias to be run in interactive bash with `db-cli`.
+Run `bash setup.sh` to build Docker image and set aliases.
 
-Configuration files persist between sessions.
+By default, container is removed between runs but files and configurations persist.
 
-To clear configuration files, run `db-cli-clean`.
+The alias `db-cli` will put you into an interactive terminal.
 
-`bash setup.sh` to configure.
+The alias `db-cli-fresh` will purge the storage volume and put you into an interactive terminal.
